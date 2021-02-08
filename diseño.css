@@ -1,0 +1,114 @@
+*{
+	margin: 0px; 
+	padding: 0px;
+     
+}
+
+.principal{
+
+     font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+     }
+
+.boton{
+	background-image:url(piedra.jpg);
+
+	color: black;
+	display: inline-block;
+	font-style: arial;
+	font-size: 24px;
+	margin: 20px;
+	padding: 10px 0px;
+	text-align: center;
+	width: 200px;
+	text-decoration: none;
+}
+
+
+ html, body {
+     width: auto;
+     height: 100%;
+     font-family:arial, sans-serif;
+     font-weight:bold;
+     background-color:#333;
+     font-size: 40px;
+ }
+
+
+ .section{
+     position:absolute;
+     
+     background-image:url(fondopg1.jpg);
+     width:78%;
+     height:55%;
+     color:blue;
+     font-size: 34px;
+     left: 13%;
+}
+
+
+
+
+
+.desp ul li {
+    background-color:purple;
+    left: 45%;
+}
+
+.desp ul {
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+
+.desp ul a {
+  display:block;
+  color:blue;
+  text-decoration:none;
+  font-weight:400;
+  font-size:15px;
+  padding:10px;
+  font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform:uppercase;
+  letter-spacing:1px;
+
+}
+
+
+.desp ul li {
+  position:relative;
+  float:left;
+  margin:0;
+  padding:0;
+}
+
+.desp ul li:hover {
+  background:skyblue;
+}
+
+
+
+
+
+.desp ul ul {
+  display:none;
+  position:absolute;
+  top:100%;
+  left:20%;
+  padding:0;
+}
+
+.desp ul ul li {
+  float:none;
+  width:150px
+}
+
+
+.desp ul ul a {
+  line-height:120%;
+  padding:10px 15px;
+}
+
+.desp ul li:hover > ul {
+  display:block;
+}
